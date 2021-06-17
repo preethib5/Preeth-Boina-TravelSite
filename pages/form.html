@@ -3,8 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/form.css" />
     <link rel="stylesheet" href="../css/destinations.css" />
     <title>Travel Site-Home</title>
 </head>
@@ -25,38 +28,28 @@
         </nav>
     </header>
 
-    <main class="menu" id="menu__icelandimage">
-        <h1 class="menu--title">Iceland</h1>
-        <ul class="menu__menu-list">
-            <li class="menu__menu-items">Friday</li>
-            <ul>
-                <li class="menu-items1 menu-items2--color ">Breakfast</li>
-                <li class="menu-items1 menu-items2--color">Lunch</li>
-                <li class="  menu-items1 menu-items2--color ">Dinner</li>
-                <li class="menu-items1 menu-items2--color ">Snorkeling</li>
-            </ul>
+    <div class="container">
 
+        <h2 class="container--color">Contact Form</h2>
+        <form>
+            <label class="container--color" for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="First Name">
 
-            <li class="menu__menu-items2 ">Saturday</li>
-            <ul>
-                <li class=" menu-items2 menu-items2--color ">Breakfast</li>
-                <li class="  menu-items2 menu-items2--color ">Lunch</li>
-                <li class="  menu-items2 menu-items2--color">Dinner</li>
-                <li class="menu-items2 menu-items2--color">Snorkeling</li>
-            </ul>
-            <li class="menu__menu-items3">Sunday</li>
-            <ul>
-                <li class="menu-items3 menu-items2--color ">Breakfast</li>
-                <li class="menu-items3 menu-items2--color ">Lunch</li>
-                <li class="menu-items3 menu-items2--color ">Dinner</li>
-                <li class="menu-items3 menu-items2--color ">Snorkeling</li>
-            </ul>
-        </ul>
+            <label class="container--color" for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Last Name">
 
+            <label class="container--color" for="designation">Designation</label>
+            <select id="designation" name="designation">
+          <option value="hawaii">Hawaii</option>
+          <option value="iceland">Iceland</option>
+          <option value="greece">Greece</option>
+        </select>
 
-    </main>
-
-
+            <label class="container--color" for="subject">Additional Information</label>
+            <textarea id="subject" name="subject" placeholder="Provide Additional Information." style="height:200px"></textarea>
+            <button><a href="../index.html">Return</a></button>
+        </form>
+    </div>
     <footer class="footer-bar">
         <div class="footer-bar__contact">
             <h3 class="footer-bar__contact--title">Contact</h3>
@@ -82,7 +75,7 @@
             <h3 class="footer-bar__social--title">Social</h3>
             <a class="footer-bar__contact--link" href="https://www.instagram.com/"><img class="footer-bar__social--img1" alt="instagram" src="../assets/images/icon-instagram.png"></a>
             <a class="footer-bar__contact--link" href="https://www.facebook.com/"><img class="footer-bar__social--img-size" alt="facebook" src="../assets/images/icon-facebook.png"></a>
-            <a class="footer-bar__contact--link" href="https://twitter.com/login?lang=en"><img class="footer-bar__social--img2" alt="twitter" src="../assets/images/icon-twitter.png"></a>
+            <a class="footer-bar__contact--link" href="https://twitter.com/login?lang=en"><img class="footer-bar__social--img1" alt="twitter" src="../assets/images/icon-twitter.png"></a>
 
         </div>
     </footer>

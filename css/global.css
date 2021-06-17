@@ -1,0 +1,132 @@
+/* Showing Navigation Bar*/
+
+.nav-bar__menu-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-bar__menu-item {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.nav-bar__menu-item a {
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.nav-bar__menu-item a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #DB7A4E;
+}
+
+.nav-bar__menu-item--link {
+    text-decoration: none;
+    list-style: none;
+    margin-right: auto;
+    color: #335576;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-bar__menu-item--link a {
+    text-decoration: none;
+    padding-left: 3rem;
+}
+
+
+/*Adding Footer CSS*/
+
+.footer-bar {
+    display: flex;
+    margin-right: 0rem;
+    padding-left: 10rem;
+    position: relative;
+    flex-wrap: wrap;
+    background-color: #FEFAF5;
+    top: 5rem;
+}
+
+
+/*Adding Footer-Contact CSS*/
+
+.footer-bar__contact--link {
+    padding: 1rem;
+    position: relative;
+    right: 1rem;
+    font-size: 20px;
+    color: #335576 !important;
+    bottom: 0.25rem;
+}
+
+.footer-bar__contact p {
+    margin-right: 2rem;
+    color: #DB7A4E;
+    font-size: 15px;
+}
+
+.footer-bar__contact--title {
+    color: #335576;
+}
+
+
+/*Adding Footer-Hours CSS*/
+
+.footer-bar__hours {
+    flex-wrap: wrap;
+}
+
+.footer-bar__hours--title {
+    position: relative;
+    left: 2.5rem;
+    color: #335576;
+}
+
+.footer-bar__hours ul {
+    display: flex;
+    align-items: center;
+}
+
+.footer-bar__hours li {
+    list-style: none;
+    margin-right: 2rem;
+    color: #DB7A4E;
+    font-size: 13px;
+}
+
+.footer-bar__hours--time {
+    padding: 1rem;
+    position: relative;
+    right: 1rem;
+    font-size: 20px;
+    color: #335576 !important;
+}
+
+
+/*Adding Footer-Social CSS*/
+
+.footer-bar__social--title {
+    color: #335576;
+}
+
+.footer-bar__social--img1 {
+    max-width: 2rem;
+    position: relative;
+    top: 1rem;
+}
+
+.footer-bar__social--img2 {
+    max-width: 2rem;
+    padding-left: 0.5rem;
+    position: relative;
+    top: 1rem;
+}
+
+.footer-bar__social--img-size {
+    max-width: 1rem;
+    padding-left: 0rem;
+    position: relative;
+    top: 1rem;
+}

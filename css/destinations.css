@@ -1,0 +1,154 @@
+/*Adding Menu Items*/
+
+.menu {
+    display: flex;
+    margin-right: 2rem;
+    padding-left: 17rem;
+    position: relative;
+    top: 10rem;
+    flex-wrap: wrap;
+    background-color: #FEFAF5;
+}
+
+.menu--title {
+    font-size: 100px;
+    color: white;
+    position: relative;
+    right: 10rem;
+    top: 5rem;
+}
+
+#menu__hawaiiimage {
+    background-image: url('../assets/images/hawaii.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 50em;
+    width: 100%;
+    display: block;
+    position: relative;
+    top: 0rem;
+    margin: auto;
+}
+
+#menu__greeceimage {
+    background-image: url('../assets/images/greece.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 50em;
+    width: 100%;
+    display: block;
+    position: relative;
+    top: 0rem;
+    margin: auto;
+}
+
+#menu__icelandimage {
+    background-image: url('../assets/images/iceland.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 50em;
+    width: 100%;
+    display: block;
+    position: relative;
+    top: 0rem;
+    margin: auto;
+}
+
+.menu__menu-list {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    bottom: 5rem;
+}
+
+.menu__menu-items {
+    list-style: none;
+    margin-right: 0rem;
+    min-height: 25rem;
+    min-width: 18rem;
+    position: relative;
+    right: 10rem;
+    top: 10rem;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    line-height: 4rem;
+    background-color: white;
+}
+
+.menu-items1 {
+    padding-top: 2.5rem;
+    font-size: 18px;
+    color: black;
+    list-style: none;
+    position: relative;
+    top: 9rem;
+    right: 24rem;
+    text-align: center;
+}
+
+.menu__menu-items2 {
+    list-style: none;
+    margin-right: 0rem;
+    min-height: 25rem;
+    min-width: 18rem;
+    position: relative;
+    right: 15rem;
+    top: 10rem;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    line-height: 4rem;
+    background-color: white;
+}
+
+.menu__menu-items3 {
+    list-style: none;
+    margin-right: 0rem;
+    min-height: 25rem;
+    min-width: 18rem;
+    position: relative;
+    right: 20rem;
+    top: 10rem;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    line-height: 4rem;
+    background-color: white;
+}
+
+.menu-items2 {
+    padding-top: 2.5rem;
+    font-size: 18px;
+    color: black;
+    list-style: none;
+    position: relative;
+    top: 9rem;
+    right: 29rem;
+    text-align: center;
+}
+
+.menu-items3 {
+    padding-top: 2.5rem;
+    font-size: 18px;
+    color: black;
+    list-style: none;
+    position: relative;
+    top: 9rem;
+    right: 34rem;
+    text-align: center;
+}
+
+.menu-items2--color {
+    background-color: #FEFAF5;
+}
